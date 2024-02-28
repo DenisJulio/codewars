@@ -48,13 +48,7 @@ n == grid[i].length
 1 <= m, n <= 300
 grid[i][j] is '0' or '1'.
 ```
-## Solution
 
-* Check whether a land is part of an island
-  * if not increase the island count, else iterate next
+## Insight from chatting with copilot
 
-TODO: How to calculate whether a land is part of an island
-
-* Count the number of islands in the first row
-* Count the number of islands in the next row
-* Count the number os islands of the previous row which borders the rows islands
+Look into using the depth first search algorithm
